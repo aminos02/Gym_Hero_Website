@@ -1,0 +1,105 @@
+$red:#f00;
+$black : #000;
+$white : #fff;
+$light-white:#aaa;
+$light-bg:#111;
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax($val,1fr));
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+  
+    &::-webkit-scrollbar{
+      width: 1rem;
+    }
+  
+    &::-webkit-scrollbar-track{
+      background: $black;
+    }
+  
+    &::-webkit-scrollbar-thumb{
+      background: $red;
+    }
+  }
+  body{
+    background: $black;
+  }
+  
+  .heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+  
+    &::before{
+      content: '';
+      position: absolute;
+      top:50%; left:0;
+      transform: translateY(-50%);
+      height: .1rem;
+      width: 100%;
+      background: $light-white;
+      z-index: -1;
+    }
+  
+    span{
+      font-size: 3rem;
+      color:$red;
+      background: $black;
+      padding:.5rem 1.5rem;
+      border:.1rem solid $light-white;
+      border-radius: .5rem;
+    }
+  }
+  
+  .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:1rem 2.8rem;
+    padding-right: 3rem;
+    background:linear-gradient(130deg, $red 93%, transparent 90%);
+    color:$white;
+    cursor: pointer;
+    font-size: 1.7rem;
+  
+    &:hover{
+      transform:scale(1.1);
+    }
+  }
+  
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 9%;
+    z-index: 10000;
+    background: $black;
+  
+    .logo{
+      font-weight: bolder;
+      color:$white;
+      font-size: 3rem;
+  
+      span{
+        color:$red;
+      }
+    }
+    .navbar a{
+        display: inline-block;
+        padding:1.5rem 2rem;
+        font-size: 1.7rem;
+        color:$white;
+    
+        &:hover{
+          background: $red;
+        }
+      }
+    }
+    
