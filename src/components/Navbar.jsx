@@ -2,13 +2,13 @@ import React from 'react'
 import './Navbar.scss'
 function Navbar() {
   return (
-    <header class="header">
+    <header className="header">
 
-    <a href="#" class="logo"> <span>GYM</span>HERO</a>
+    <a href="#" className="logo"> <span>GYM</span>HERO</a>
 
-    <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="menu-btn" className="fas fa-bars"></div>
 
-    <nav class="navbar">
+    <nav className="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#features">features</a>
