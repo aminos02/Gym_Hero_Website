@@ -1,0 +1,44 @@
+@import '../App.scss';
+.home{
+    padding:0;
+    margin-top: 5rem;
+  
+    .slide{
+      min-height:70vh;
+      background-size: cover !important;
+      background-position: center !important;
+      padding:2rem 9%;
+      display: flex;
+      align-items: center;
+  
+      .content{
+        width:60rem;
+  
+        span{
+          font-size: 2rem;
+          color:$red;
+          display: block;
+        }
+  
+        h3{
+          font-size: 5rem;
+          color:$white;
+          padding:1rem 0;
+        }
+      }
+    }
+  }
+  .swiper-pagination-horizontal{
+      display: flex;
+      justify-content: center;
+      .swiper-pagination-bullet{
+        display: flex;
+      height: 2rem;
+      width: 2rem;
+      background: $white;
+    
+      &.swiper-pagination-bullet-active{
+        background: $red;
+      }
+    } 
+    }

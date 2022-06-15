@@ -1,0 +1,31 @@
+@import '../App.scss';
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 9%;
+    z-index: 10000;
+    background: $black;
+  
+    .logo{
+      font-weight: bolder;
+      color:$white;
+      font-size: 3rem;
+  
+      span{
+        color:$red;
+      }
+    }
+    .navbar a{
+        display: inline-block;
+        padding:1.5rem 2rem;
+        font-size: 1.7rem;
+        color:$white;
+    
+        &:hover{
+          background: $red;
+        }
+      }
+    }
