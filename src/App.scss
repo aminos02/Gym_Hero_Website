@@ -29,6 +29,9 @@ html{
   body{
     background: $black;
   }
+  section{
+    padding:5rem 9%;
+  }
   
   .heading{
     text-align: center;
@@ -79,58 +82,7 @@ html{
         cursor: pointer;
         display: none;
       } 
-      .features .box-container{
-        @include grid(32rem);
-        gap:0;
       
-        .box{
-          background: $light-bg;
-      
-          &.second{
-            display: flex;
-            flex-flow: column-reverse;
-          }
-      
-          &:hover .image img{
-            transform: scale(1.1);
-          }
-      
-          .image{
-            height: 30rem;
-            width: 100%;
-            overflow:hidden;
-      
-            img{
-              height: 100%;
-              width: 100%;
-              object-fit: cover;
-            }
-          }
-      
-          .content{
-            padding:2rem;
-            text-align: center;
-      
-            img{
-              height: 9rem;
-              margin-bottom: 1rem;
-              filter: invert(1);
-            }
-      
-            h3{
-              font-size: 2rem;
-              color:$red;
-            }
-      
-            p{
-              line-height: 2;
-              font-size: 1.5rem;
-              color:$light-white;
-              padding:1rem 0;
-            }
-          }
-        }
-      }
       
       .pricing{
         @include grid(32rem);
