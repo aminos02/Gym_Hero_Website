@@ -11,6 +11,7 @@ import Reviews from './components/Reviews';
 import Trainers from './components/Trainers';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import Footer from './components/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Discount/>
       <Reviews/>
       <Blogs/>
+      <Footer/>
 
 <FontAwesomeIcon icon={solid('user-secret')} />
 

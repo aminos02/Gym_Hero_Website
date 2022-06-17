@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 function Navbar() {
+  const [toggle,setToggle]=useState(false);
+  window.onscroll=()=>{
+    setToggle(false)
+  }
   return (
     <header className="header">
 
     <a href="#" className="logo"> <span>GYM</span>HERO</a>
 
-    <div id="menu-btn" className="fas fa-bars"></div>
+    <FontAwesomeIcon id="menu-btn" onClick={()=>setToggle(!toggle)} icon={toggle?faTimes:faBars}/>
 
-    <nav className="navbar">
+    <nav className={`navbar ${toggle && 'active'}`}>
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#features">features</a>
