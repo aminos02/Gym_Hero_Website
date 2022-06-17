@@ -39,8 +39,11 @@
           padding-top: 2rem;
           margin-top: 1.5rem;
           border-top: .1rem solid $light-white;
+          display: flex;
+          justify-content: center;
   
-          a{
+          .icon{
+            cursor: pointer;
             font-size: 2rem;
             color:$white;
             margin-right: 1.5rem;

@@ -41,7 +41,7 @@ function Blogs() {
           className="slide"
         >
             <div className="image">
-                <img src="images/blog-2.jpg" alt=""/>
+                <img src="images/blog-5.jpg" alt=""/>
             </div>
             <div className="content">
                 <div className="link"> <a href="#">by user</a> <span>|</span> <a href="#">21st may, 2021</a> </div>

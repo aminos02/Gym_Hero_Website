@@ -23,7 +23,7 @@ function Banner() {
       >
         <SwiperSlide
           className="slide"
-          style={{ background: "url(images/home-bg-1.jpg) no-repeat" }}
+          style={{ background: "url(images/banner-bg.jpg) no-repeat" }}
         >
           <div className="content">
             <span>be strong, be fit</span>
@@ -35,7 +35,7 @@ function Banner() {
         </SwiperSlide>
         <SwiperSlide
           className="slide"
-          style={{ background: "url(images/home-bg-2.jpg) no-repeat" }}
+          style={{ background: "url(images/gym2.jpg) no-repeat" }}
         >
           <div className="content">
             <span>be strong, be fit</span>

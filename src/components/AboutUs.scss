@@ -35,6 +35,8 @@
   
     .content{
       flex: 1 1 42rem;
+      display: flex;
+      flex-direction: column;
   
       span{
         font-size: 2rem;

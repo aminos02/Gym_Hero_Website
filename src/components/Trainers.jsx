@@ -1,5 +1,7 @@
 import React from 'react'
 import './Trainers.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faLinkedin, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons';
 function Trainers() {
   return (
     
@@ -13,26 +15,26 @@ function Trainers() {
         <img src="images/trainer-1.jpg" alt=""/>
         <div className="content">
             <span>expert trainer</span>
-            <h3>john deo</h3>
+            <h3>Albert</h3>
             <div className="share">
-                <a href="#" className="fab fa-facebook-f"></a>
-                <a href="#" className="fab fa-twitter"></a>
-                <a href="#" className="fab fa-pinterest"></a>
-                <a href="#" className="fab fa-linkedin"></a>
+            <FontAwesomeIcon icon={faFacebookF}  className='icon'/>
+            <FontAwesomeIcon icon={faTwitter}  className='icon'/>
+            <FontAwesomeIcon icon={faPinterest}  className='icon'/>
+            <FontAwesomeIcon icon={faLinkedin}  className='icon'/>
             </div>
         </div>
     </div>
 
     <div className="box">
-        <img src="images/trainer-4.jpg" alt=""/>
+        <img src="images/gym6.jpg" alt=""/>
         <div className="content">
             <span>expert trainer</span>
-            <h3>john deo</h3>
+            <h3>Kaido</h3>
             <div className="share">
-                <a href="#" className="fab fa-facebook-f"></a>
-                <a href="#" className="fab fa-twitter"></a>
-                <a href="#" className="fab fa-pinterest"></a>
-                <a href="#" className="fab fa-linkedin"></a>
+            <FontAwesomeIcon icon={faFacebookF}  className='icon'/>
+            <FontAwesomeIcon icon={faTwitter}  className='icon'/>
+            <FontAwesomeIcon icon={faPinterest}  className='icon'/>
+            <FontAwesomeIcon icon={faLinkedin}  className='icon'/>
             </div>
         </div>
     </div>
@@ -41,12 +43,12 @@ function Trainers() {
         <img src="images/trainer-3.jpg" alt=""/>
         <div className="content">
             <span>expert trainer</span>
-            <h3>john deo</h3>
+            <h3>Jack</h3>
             <div className="share">
-                <a href="#" className="fab fa-facebook-f"></a>
-                <a href="#" className="fab fa-twitter"></a>
-                <a href="#" className="fab fa-pinterest"></a>
-                <a href="#" className="fab fa-linkedin"></a>
+            <FontAwesomeIcon icon={faFacebookF}  className='icon'/>
+            <FontAwesomeIcon icon={faTwitter}  className='icon'/>
+            <FontAwesomeIcon icon={faPinterest}  className='icon'/>
+            <FontAwesomeIcon icon={faLinkedin}  className='icon'/>
             </div>
         </div>
     </div>

@@ -33,7 +33,7 @@ function Features() {
 
         <div className="box">
             <div className="image">
-                <img src="images/f-img-3.jpg" alt=""/>
+                <img src="images/gym5.jpg" alt=""/>
             </div>
             <div className="content">
                 <img src="images/icon-3.png" alt=""/>

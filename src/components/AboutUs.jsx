@@ -32,7 +32,7 @@ function AboutUs() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, enim.</p>
             </div>
         </div>
-        <a href="#" className="btn">read more</a>
+        <a href="#" className="btn" >read more</a>
     </div>
 
 </section>
